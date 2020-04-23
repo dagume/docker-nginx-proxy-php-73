@@ -7,7 +7,7 @@ server {
     error_log /var/log/nginx/nginx.vhost.error.log;
 
     location / {
-        proxy_pass https://ideasoft.com.co;
+        proxy_pass https://www.ideasoft.com.co;
     }
 
     root                      /var/www/html/public;
