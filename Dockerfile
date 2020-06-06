@@ -31,8 +31,6 @@ COPY default /etc/nginx/sites-available/default
 COPY php-fpm.conf /etc/php/7.3/fpm/php-fpm.conf
 COPY www.conf /etc/php/7.3/fpm/pool.d/www.conf
 COPY php.ini /etc/php/7.3/fpm/php.ini
-COPY example.crt /etc/nginx/ssl/example.crt
-COPY example.key /etc/nginx/ssl/example.key
 
 EXPOSE 443
 
